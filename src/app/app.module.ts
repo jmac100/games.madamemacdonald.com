@@ -17,6 +17,7 @@ import { GamesComponent } from './games/games.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SpinComponent } from './spin/spin.component';
 import { PlayerDetailsComponent } from './player-details/player-details.component';
+import { CallbackComponent } from './callback/callback.component';
 
 export const config = {
   apiKey: environment.fb_apiKey,
@@ -36,7 +37,8 @@ export const config = {
     GamesComponent,
     DashboardComponent,
     SpinComponent,
-    PlayerDetailsComponent
+    PlayerDetailsComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +46,7 @@ export const config = {
     HttpModule,
     RouterModule.forRoot([
       { path: '', component: AdminComponent },
+      { path: 'callback', component: CallbackComponent },
       { path: 'lobby', component: LobbyComponent },
       { path: 'lobby/:id', component: LobbyComponent },
       { path: 'play/:id', component: PlayComponent },

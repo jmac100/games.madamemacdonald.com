@@ -7,13 +7,13 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
-      <li class="nav-item" *ngIf="_auth0.authenticated()"><a class="nav-link" routerLink="/games" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Games</a></li>
-      <li class="nav-item" *ngIf="_auth0.authenticated()"><a class="nav-link" routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Dashboard</a></li>
+      <li class="nav-item" *ngIf="_auth0.isAuthenticated()"><a class="nav-link" routerLink="/games" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Games</a></li>
+      <li class="nav-item" *ngIf="_auth0.isAuthenticated()"><a class="nav-link" routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Dashboard</a></li>
       <li class="nav-item"><a class="nav-link" routerLink="/spin" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Bravo Draw</a></li>
     </ul>
     <ul class="navbar-nav my-2 my-lg-0">
-      <li><button class="btn btn-primary btn-margin pointer" (click)="_auth0.login()" *ngIf="!_auth0.authenticated()">Log In</button></li>
-      <li><button class="btn btn-primary btn-margin pointer" (click)="_auth0.logout()" *ngIf="_auth0.authenticated()">Log Out</button></li>
+      <li><button class="btn btn-primary btn-margin pointer" (click)="_auth0.login()" *ngIf="!_auth0.isAuthenticated()">Log In</button></li>
+      <li><button class="btn btn-primary btn-margin pointer" (click)="_auth0.logout()" *ngIf="_auth0.isAuthenticated()">Log Out</button></li>
     </ul>
   </div>
 </nav>
