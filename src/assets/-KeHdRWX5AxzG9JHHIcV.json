@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "question": "La fille mange de la barbe à papa.",
+            "image": "1.png" 
+        },
+        {
+            "question": "Les biscuits sont dans une boîte.",
+            "image": "2.png" 
+        },
+        {
+            "question": "Il y a des bonbons dans le bol.",
+            "image": "3.png" 
+        },
+        {
+            "question": "L’assiette est pleine de bouchées.",
+            "image": "4.png" 
+        },
+        {
+            "question": "Le chocolat chaud est dans une tasse.",
+            "image": "5.png" 
+        },
+        {
+            "question": "C’est une tablette de chocolat au lait.",
+            "image": "6.png" 
+        },
+        {
+            "question": "Ces croustilles goûtent le ketchup.",
+            "image": "7.png" 
+        },
+        {
+            "question": "Il y a des fruits dans le bol.",
+            "image": "8.png" 
+        },
+        {
+            "question": "Il y a des chandelles sur le gâteau d’anniversaire.",
+            "image": "9.png" 
+        },
+        {
+            "question": "On sert des légumes avec de la trempette.",
+            "image": "10.png" 
+        },
+        {
+            "question": "Les oeufs farcis sont bons.",
+            "image": "11.png" 
+        },
+        {
+            "question": "Il y a des olives sur la pizza.",
+            "image": "12.png" 
+        },
+        {
+            "question": "Le garçon mange du poulet.",
+            "image": "13.png" 
+        },
+        {
+            "question": "Ces bâtons de réglisse sont rouges.",
+            "image": "14.png" 
+        },
+        {
+            "question": "Les salades sont délicieuses.",
+            "image": "15.png" 
+        },
+        {
+            "question": "Les assiettes sont pleines de sandwichs.",
+            "image": "16.png" 
+        },
+        {
+            "question": "Les sucettes glacées sont froides.",
+            "image": "17.png" 
+        },
+        {
+            "question": "La tarte est chaude.",
+            "image": "18.png" 
+        }
+    ]
+}

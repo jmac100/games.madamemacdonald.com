@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "question": "de la laitue",
+            "image": "1.png" 
+        },
+        {
+            "question": "de la mayonnaise",
+            "image": "2.png" 
+        },
+        {
+            "question": "de la sauce tomate",
+            "image": "3.png" 
+        },
+        {
+            "question": "de la vinaigrette",
+            "image": "4.png" 
+        },
+        {
+            "question": "de l'ananas",
+            "image": "5.png" 
+        },
+        {
+            "question": "de l'avocat",
+            "image": "6.png" 
+        },
+        {
+            "question": "des algues",
+            "image": "7.png" 
+        },
+        {
+            "question": "des cerises",
+            "image": "8.png" 
+        },
+        {
+            "question": "des oeufs",
+            "image": "9.png" 
+        },
+        {
+            "question": "des olives",
+            "image": "10.png" 
+        },
+        {
+            "question": "des pêches",
+            "image": "11.png" 
+        },
+        {
+            "question": "des pommes",
+            "image": "12.png" 
+        },
+        {
+            "question": "des tomates",
+            "image": "13.png" 
+        },
+        {
+            "question": "du concombre",
+            "image": "14.png" 
+        },
+        {
+            "question": "du crabe",
+            "image": "15.png" 
+        },
+        {
+            "question": "du fromage",
+            "image": "16.png" 
+        },
+        {
+            "question": "du jambon",
+            "image": "17.png" 
+        },
+        {
+            "question": "du poulet",
+            "image": "18.png" 
+        },
+        {
+            "question": "du riz",
+            "image": "19.png" 
+        },
+        {
+            "question": "du thon",
+            "image": "20.png" 
+        },
+        {
+            "question": "un pain à sous-marin",
+            "image": "21.png" 
+        },
+        {
+            "question": "un petit pain",
+            "image": "22.png" 
+        },
+        {
+            "question": "une pâte",
+            "image": "23.png" 
+        },
+        {
+            "question": "une tortilla",
+            "image": "24.png" 
+        }
+    ]
+}

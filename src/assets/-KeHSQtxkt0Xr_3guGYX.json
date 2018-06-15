@@ -1,0 +1,164 @@
+{
+    "items": [
+        {
+            "question": "la chèvre",
+            "image": "1.gif" 
+        },
+        {
+            "question": "la mouffette",
+            "image": "2.png" 
+        },
+        {
+            "question": "la poule",
+            "image": "3.png" 
+        },
+        {
+            "question": "la vache",
+            "image": "4.png" 
+        },
+        {
+            "question": "le canard",
+            "image": "5.png" 
+        },
+        {
+            "question": "le castor",
+            "image": "6.png" 
+        },
+        {
+            "question": "le cerf",
+            "image": "7.png" 
+        },
+        {
+            "question": "le chameau",
+            "image": "8.png" 
+        },
+        {
+            "question": "le cochon",
+            "image": "9.gif" 
+        },
+        {
+            "question": "le crocodile",
+            "image": "10.png" 
+        },
+        {
+            "question": "le dindon",
+            "image": "11.png" 
+        },
+        {
+            "question": "le kangourou",
+            "image": "12.png" 
+        },
+        {
+            "question": "le léopard",
+            "image": "13.png" 
+        },
+        {
+            "question": "le lézard",
+            "image": "14.png" 
+        },
+        {
+            "question": "le porc-épic",
+            "image": "15.png" 
+        },
+        {
+            "question": "le lion",
+            "image": "16.png" 
+        },
+        {
+            "question": "le loup",
+            "image": "17.png" 
+        },
+        {
+            "question": "le mouton",
+            "image": "18.png" 
+        },
+        {
+            "question": "le raton laveur",
+            "image": "19.png" 
+        },
+        {
+            "question": "le singe",
+            "image": "20.png" 
+        },
+        {
+            "question": "le taureau",
+            "image": "21.png" 
+        },
+        {
+            "question": "le tigre",
+            "image": "22.png" 
+        },
+        {
+            "question": "le zèbre",
+            "image": "23.png" 
+        },
+        {
+            "question": "l'éléphant",
+            "image": "24.png" 
+        },
+        {
+            "question": "l'ours",
+            "image": "25.png" 
+        },
+        {
+            "question": "un chat",
+            "image": "26.png" 
+        },
+        {
+            "question": "un cheval",
+            "image": "27.png" 
+        },
+        {
+            "question": "un chien",
+            "image": "28.png" 
+        },
+        {
+            "question": "un cobaye",
+            "image": "29.png" 
+        },
+        {
+            "question": "un hamster",
+            "image": "30.png" 
+        },
+        {
+            "question": "un lapin",
+            "image": "31.png" 
+        },
+        {
+            "question": "un oiseau",
+            "image": "32.png" 
+        },
+        {
+            "question": "un perroquet",
+            "image": "33.png" 
+        },
+        {
+            "question": "un poisson",
+            "image": "34.png" 
+        },
+        {
+            "question": "un serpent",
+            "image": "35.png" 
+        },
+        {
+            "question": "une gerbille",
+            "image": "36.png" 
+        },
+        {
+            "question": "une grenouille",
+            "image": "37.png" 
+        },
+        {
+            "question": "une perruche",
+            "image": "38.png" 
+        },
+        {
+            "question": "une souris",
+            "image": "39.png" 
+        },
+        {
+            "question": "une tortue",
+            "image": "40.png" 
+        }
+    ]
+}

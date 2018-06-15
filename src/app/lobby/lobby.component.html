@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="loading vertical-center fade-in" *ngIf="!player">
+  Getting your profile.  One sec...
+  </div>
+  <div *ngIf="player">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron text-center">
+          <span>
+            <h3 class="display-4">
+              Welcome {{ player.displayName }}
+            </h3>
+            <span>
+              <img *ngIf="!player.avatarUrl.endsWith('/') && !player.avatarUrl.endsWith('0.noavatar.png')" 
+                src="http://madamemacdonald.com/images/avatars/{{player.avatarUrl}}" class="img-fluid rounded-circle">
+            </span>
+          </span>
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <a [href]="referrer" class="btn btn-success">Return to MadameMacDonald.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" *ngIf="players">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h3 class="display-4 text-center">
+            Lobby
+          </h3>
+          <div class="row mt-5">
+            <div class="col-md-3" *ngFor="let p of players">
+              <div class="card player-card">
+                <img *ngIf="!p.avatar.endsWith('/') && !p.avatar.endsWith('0.noavatar.png')" class="avatar-header img-fluid" [src]="p.avatar">
+                <div class="card-block">
+                  <h4 class=text-center>
+                    {{ p.name }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h3 class="display-4 text-center">
+            Games
+          </h3>
+          <div class="row mt-5">
+            <div class="col-md-4 mb-3" *ngFor="let game of games_db | async">
+              <div class="card text-center">              
+                <div class="card-block">
+                  <h3 class="card-title text-primary">
+                    {{ game.name }}
+                  </h3>
+                  <p class="card-text h4">
+                    {{ game.topic }}
+                  </p>
+                  <ul class="list-inline" *ngIf="game.players">
+                    <app-player-details [game]="game"></app-player-details>
+                  </ul>
+                  <p class="text-danger" *ngIf="!game.players">
+                    0 Players
+                  </p>
+                  <a routerLink="/play/{{ game.$key }}" class="btn btn-primary btn-block" (click)="removeFromLobby(game.$key)">
+                    Join
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

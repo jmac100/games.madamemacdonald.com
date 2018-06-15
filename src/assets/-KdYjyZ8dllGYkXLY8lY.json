@@ -1,0 +1,148 @@
+{
+    "items": [
+        {
+            "question": "un garçon/un élève",
+            "image": "1.png" 
+        },
+        {
+            "question": "un professeur",
+            "image": "2.png" 
+        },
+        {
+            "question": "un crayon",
+            "image": "3.png" 
+        },
+        {
+            "question": "un crayon à colorier",
+            "image": "4.png" 
+        },
+        {
+            "question": "un bureau",
+            "image": "5.png" 
+        },
+        {
+            "question": "un cahier",
+            "image": "6.png" 
+        },
+        {
+            "question": "un rétroprojecteur",
+            "image": "7.png" 
+        },
+        {
+            "question": "un stylo",
+            "image": "8.png" 
+        },
+        {
+            "question": "un stylo-feutre",
+            "image": "9.png" 
+        },
+        {
+            "question": "un jeu",
+            "image": "10.png" 
+        },
+        {
+            "question": "un livre",
+            "image": "11.png" 
+        },
+        {
+            "question": "un magnétophone",
+            "image": "12.png" 
+        },
+        {
+            "question": "un magnétoscope",
+            "image": "13.png" 
+        },
+        {
+            "question": "un mur",
+            "image": "14.png" 
+        },
+        {
+            "question": "un ordinateur",
+            "image": "15.png" 
+        },
+        {
+            "question": "un tableau",
+            "image": "16.png" 
+        },
+        {
+            "question": "un tableau d'affichage",
+            "image": "17.png" 
+        },
+        {
+            "question": "un pupitre",
+            "image": "18.png" 
+        },
+        {
+            "question": "un trombone",
+            "image": "19.png" 
+        },
+        {
+            "question": "un taille-crayon",
+            "image": "20.png" 
+        },
+        {
+            "question": "des ciseaux",
+            "image": "21.png" 
+        },
+        {
+            "question": "une fille/une élève",
+            "image": "22.png" 
+        },
+        {
+            "question": "une professeure",
+            "image": "23.png" 
+        },
+        {
+            "question": "une agrafeuse",
+            "image": "24.png" 
+        },
+        {
+            "question": "une brosse",
+            "image": "25.png" 
+        },
+        {
+            "question": "une cassette",
+            "image": "26.png" 
+        },
+        {
+            "question": "une chaise",
+            "image": "27.png" 
+        },
+        {
+            "question": "une feuille de papier",
+            "image": "28.png" 
+        },
+        {
+            "question": "une table",
+            "image": "29.png" 
+        },
+        {
+            "question": "une craie",
+            "image": "30.png" 
+        },
+        {
+            "question": "une règle",
+            "image": "31.png" 
+        },
+        {
+            "question": "une fenêtre",
+            "image": "32.png" 
+        },
+        {
+            "question": "une porte",
+            "image": "33.png" 
+        },
+        {
+            "question": "une télévision",
+            "image": "34.png" 
+        },
+        {
+            "question": "une vidéocassette",
+            "image": "35.png" 
+        },
+        {
+            "question": "de la colle",
+            "image": "36.png" 
+        }
+    ]
+}

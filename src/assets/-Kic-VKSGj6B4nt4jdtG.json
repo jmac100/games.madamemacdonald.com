@@ -1,0 +1,92 @@
+{
+    "items": [
+        {
+            "question": "C'est la pluie.",
+            "image": "1.png" 
+        },
+        {
+            "question": "C'est l'hiver.",
+            "image": "2.png" 
+        },
+        {
+            "question": "C'est un blaireau.",
+            "image": "3.png" 
+        },
+        {
+            "question": "Il dit quoi faire.",
+            "image": "4.png" 
+        },
+        {
+            "question": "Il semble content.",
+            "image": "5.png" 
+        },
+        {
+            "question": "Ils se serrent.",
+            "image": "6.png" 
+        },
+        {
+            "question": "Ils s'envolent.",
+            "image": "7.png" 
+        },
+        {
+            "question": "Le hibou dit quoi faire.",
+            "image": "8.png" 
+        },
+        {
+            "question": "C’est un écureuil.",
+            "image": "9.png" 
+        },
+        {
+            "question": "C’est un hibou.",
+            "image": "10.png" 
+        },
+        {
+            "question": "C’est un renard.",
+            "image": "11.png" 
+        },
+        {
+            "question": "Elle fait un trou dans la glace.",
+            "image": "12.png" 
+        },
+        {
+            "question": "Il dort jusqu’au printemps.",
+            "image": "13.png" 
+        },
+        {
+            "question": "Il ne dit rien.",
+            "image": "14.png" 
+        },
+        {
+            "question": "Il porte son pelage d’hiver.",
+            "image": "15.png" 
+        },
+        {
+            "question": "Il rêve.",
+            "image": "16.png" 
+        },
+        {
+            "question": "C’est un étang.",
+            "image": "17.png" 
+        },
+        {
+            "question": "On se cache sous les pierres.",
+            "image": "18.png" 
+        },
+        {
+            "question": "C’est un arbre.",
+            "image": "19.png" 
+        },
+        {
+            "question": "C’est un canard.",
+            "image": "20.png" 
+        },
+        {
+            "question": "C’est une grenouille.",
+            "image": "21.png" 
+        },
+        {
+            "question": "C’est une souris.",
+            "image": "22.png" 
+        }
+    ]
+}

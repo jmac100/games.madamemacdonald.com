@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "question": "On arrive à la fête",
+            "image": "1.png" 
+        },
+        {
+            "question": "On chante",
+            "image": "2.png" 
+        },
+        {
+            "question": "On danse",
+            "image": "3.png" 
+        },
+        {
+            "question": "On distribue les invitations",
+            "image": "4.png" 
+        },
+        {
+            "question": "On écoute de la musique",
+            "image": "5.png" 
+        },
+        {
+            "question": "On écoute un spectacle",
+            "image": "6.png" 
+        },
+        {
+            "question": "On joue à des jeux vidéo",
+            "image": "7.png" 
+        },
+        {
+            "question": "On joue dehors",
+            "image": "8.png" 
+        },
+        {
+            "question": "On mange",
+            "image": "9.png" 
+        },
+        {
+            "question": "On ouvre des cadeaux",
+            "image": "10.png" 
+        },
+        {
+            "question": "On prépare des invitations",
+            "image": "11.png" 
+        },
+        {
+            "question": "On prépare un gâteau",
+            "image": "12.png" 
+        },
+        {
+            "question": "On regarde un film",
+            "image": "13.png" 
+        },
+        {
+            "question": "On remercie les invités",
+            "image": "14.png" 
+        },
+        {
+            "question": "On remercie pour les cadeaux",
+            "image": "15.png" 
+        },
+        {
+            "question": "On se maquille",
+            "image": "16.png" 
+        },
+        {
+            "question": "On souffle les chandelles",
+            "image": "17.png" 
+        },
+        {
+            "question": "On visite une exposition",
+            "image": "18.png" 
+        }
+    ]
+}

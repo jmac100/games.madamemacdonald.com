@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "question": "C’est la récré.",
+            "image": "1.png" 
+        },
+        {
+            "question": "C’est un pays.",
+            "image": "2.png" 
+        },
+        {
+            "question": "Il n’y a rien.",
+            "image": "3.png" 
+        },
+        {
+            "question": "C’est un buisson.",
+            "image": "4.png" 
+        },
+        {
+            "question": "C’est le bois.",
+            "image": "5.png" 
+        },
+        {
+            "question": "C’est le ciel.",
+            "image": "6.png" 
+        },
+        {
+            "question": "C’est un sourire.",
+            "image": "7.png" 
+        },
+        {
+            "question": "C’est un chapeau à rayures.",
+            "image": "8.png" 
+        },
+        {
+            "question": "Elle est essoufflée.",
+            "image": "9.png" 
+        },
+        {
+            "question": "Il a de la chance.",
+            "image": "10.png" 
+        },
+        {
+            "question": "Il chuchote.",
+            "image": "11.png" 
+        },
+        {
+            "question": "Il est vivant.",
+            "image": "12.png" 
+        },
+        {
+            "question": "Elle nourrit le chat.",
+            "image": "13.png" 
+        },
+        {
+            "question": "Il attend.",
+            "image": "14.png" 
+        },
+        {
+            "question": "Il est en retard.",
+            "image": "15.png" 
+        },
+        {
+            "question": "Il hurle.",
+            "image": "16.png" 
+        },
+        {
+            "question": "Il montre ses griffes.",
+            "image": "17.png" 
+        },
+        {
+            "question": "Il sait tout.",
+            "image": "18.png" 
+        },
+        {
+            "question": "La cloche sonne.",
+            "image": "19.png" 
+        },
+        {
+            "question": "Le chien mord.",
+            "image": "20.png" 
+        },
+        {
+            "question": "Il n’entend rien.",
+            "image": "21.png" 
+        },
+        {
+            "question": "Il voit.",
+            "image": "22.png" 
+        },
+        {
+            "question": "La lionesse bondit.",
+            "image": "23.png" 
+        },
+        {
+            "question": "C’est un gorille poilu.",
+            "image": "24.png" 
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+<li class="list-inline-item" *ngFor="let player of players | async">
+  <img *ngIf="!player.player.avatar.endsWith('/') && !player.player.avatar.endsWith('0.noavatar.png')" 
+    [src]="player.player.avatar" class="img-fluid"><br>{{ player.player.name }}
+</li>

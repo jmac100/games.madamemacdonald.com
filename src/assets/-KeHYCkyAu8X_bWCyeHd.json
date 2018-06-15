@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "question": "Les ballons sont des décorations.",
+            "image": "1.png" 
+        },
+        {
+            "question": "La banderole dit : « Félicitations ! ».",
+            "image": "2.png" 
+        },
+        {
+            "question": "Cette carte d’invitation dit : « Bienvenue à la fête ! ».",
+            "image": "3.png" 
+        },
+        {
+            "question": "C’est le CD de la chanson « C’est la fête ! ».",
+            "image": "4.png" 
+        },
+        {
+            "question": "Les chandelles sont blanches.",
+            "image": "5.png" 
+        },
+        {
+            "question": "On met un chapeau de fête sur la tête.",
+            "image": "6.png" 
+        },
+        {
+            "question": "On se déguise avec un masque.",
+            "image": "7.png" 
+        },
+        {
+            "question": "On joue de la musique avec un mirliton.",
+            "image": "8.png" 
+        },
+        {
+            "question": "On enveloppe les cadeaux avec du papier d’emballage.",
+            "image": "9.png" 
+        },
+        {
+            "question": "On fait des boucles de ruban.",
+            "image": "10.png" 
+        },
+        {
+            "question": "Il y a une surprise dans le sac-cadeau.",
+            "image": "11.png" 
+        },
+        {
+            "question": "On gagne un trophée.",
+            "image": "12.png" 
+        }
+    ]
+}

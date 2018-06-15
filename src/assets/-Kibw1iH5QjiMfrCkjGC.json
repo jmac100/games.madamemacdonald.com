@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "question": "C'est un abeille.",
+            "image": "1.png" 
+        },
+        {
+            "question": "C'est un chat content.",
+            "image": "2.png" 
+        },
+        {
+            "question": "Il y a un chat à la fenêtre.",
+            "image": "3.png" 
+        },
+        {
+            "question": "Il est gros.",
+            "image": "4.png" 
+        },
+        {
+            "question": "C'est le plafond.",
+            "image": "5.png" 
+        },
+        {
+            "question": "C'est la porte.",
+            "image": "6.png" 
+        },
+        {
+            "question": "C'est la salle de bains.",
+            "image": "7.png" 
+        },
+        {
+            "question": "C'est un lit.",
+            "image": "8.png" 
+        },
+        {
+            "question": "Le chat chasse la souris.",
+            "image": "9.png" 
+        },
+        {
+            "question": "Il y a une souris sur un chat.",
+            "image": "10.png" 
+        },
+        {
+            "question": "C'est la cuisine.",
+            "image": "11.png" 
+        },
+        {
+            "question": "C'est une ruche.",
+            "image": "12.png" 
+        },
+        {
+            "question": "C'est le plancher.",
+            "image": "13.png" 
+        },
+        {
+            "question": "Il y a des insectes partout.",
+            "image": "14.png" 
+        },
+        {
+            "question": "Il est sur le toit.",
+            "image": "15.png" 
+        }
+    ]
+}

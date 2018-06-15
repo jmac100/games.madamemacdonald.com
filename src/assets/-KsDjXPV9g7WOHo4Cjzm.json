@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "question": "J’aime faire la cuisine.",
+            "image": "1.png" 
+        },
+        {
+            "question": "J’aime jouer de la musique.",
+            "image": "2.png" 
+        },
+        {
+            "question": "J’aime chanter.",
+            "image": "3.png" 
+        },
+        {
+            "question": "J’aime faire de l’escalade.",
+            "image": "4.png" 
+        },
+        {
+            "question": "J’aime faire de l’équitation.",
+            "image": "5.png" 
+        },
+        {
+            "question": "J’aime danser.",
+            "image": "6.png" 
+        },
+        {
+            "question": "J’aime courir.",
+            "image": "7.png" 
+        },
+        {
+            "question": "J’aime prendre des photos.",
+            "image": "8.png" 
+        },
+        {
+            "question": "J’aime faire de la peinture.",
+            "image": "9.png" 
+        },
+        {
+            "question": "J’aime jouer au soccer.",
+            "image": "10.png" 
+        },
+        {
+            "question": "J’aime jouer au hockey.",
+            "image": "11.png" 
+        },
+        {
+            "question": "J’aime nager.",
+            "image": "12.png" 
+        },
+        {
+            "question": "J’aime faire du théâtre.",
+            "image": "13.png" 
+        },
+        {
+            "question": "J’aime faire du judo.",
+            "image": "14.png" 
+        },
+        {
+            "question": "J’aime faire du karaté.",
+            "image": "15.png" 
+        },
+        {
+            "question": "J’aime jouer à des jeux vidéo.",
+            "image": "16.png" 
+        },
+        {
+            "question": "J’aime jouer à des jeux de société.",
+            "image": "17.png" 
+        },
+        {
+            "question": "J’aime lire.",
+            "image": "18.png" 
+        }
+    ]
+}

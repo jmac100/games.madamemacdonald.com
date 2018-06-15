@@ -1,0 +1,61 @@
+<app-menu></app-menu>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="col-md-6 mb-4">
+        <div class="dropdown mt-5" *ngIf="classList">
+          <button class="btn btn-primary btn-block dropdown-toggle pointer" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ selected_class }}
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li *ngFor="let class of classList">              
+              <a class="dropdown-item" (click)="getClass(class)">{{ class }} <i class="fa fa-check" *ngIf="selected_class == class"></i></a>
+            </li>
+          </ul>
+        </div>      
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="col-md-6 mb-4">
+        <div class="dropdown">
+          <button class="btn btn-success btn-block dropdown-toggle pointer" data-toggle="dropdown">
+            Load
+            &nbsp;<i *ngIf="loading" class="fa fa-circle-o-notch fa-spin fa-fw"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item pointer" (click)="loadBravoCounts(1)">{{ getMonth(1) }} <i class="fa fa-check" *ngIf="selected_month == getMonth(1)"></i></a>
+            </li>
+            <li>
+              <a class="dropdown-item pointer" (click)="loadBravoCounts(0)">{{ getMonth(0) }} <i class="fa fa-check" *ngIf="selected_month == getMonth(0)"></i></a>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="row mt-3 mb-5" *ngFor="let detail of class_details | async">
+        <div class="col-md-3">
+          <label>{{detail.$key}}</label>
+        </div>
+        <div class="col-md-3">
+          <input type="number" #bravos class="form-control" [value]="detail.bravos" (keyup.enter)="saveClassDetail(detail.$key, bravos.value)">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <button class="btn btn-success btn-block btn-lg pointer" (click)="spin()">Spin</button>
+      <div class="jumbotron mt-5 text-center text-danger h3">
+        <h2 *ngIf="spin_complete">Félicitations à {{ winner }}!</h2>
+        <h2 *ngIf="!spin_complete">{{ winner }}</h2>
+      </div>
+      <div class="text-center text-danger h5" *ngIf="complete_list.length">
+        {{ complete_list.length }} Bravos
+      </div>
+    </div>
+  </div>
+</div>

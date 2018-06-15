@@ -1,0 +1,16 @@
+.player-card-avatar {
+    width: 35px;
+}
+
+.list-inline-item {
+    padding: 10px;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.jumbotron {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

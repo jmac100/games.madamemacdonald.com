@@ -1,0 +1,48 @@
+<app-menu></app-menu>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mb-4">
+      <div class="dropdown mt-5" *ngIf="games">
+        <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ selected_game }}
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li *ngFor="let game of games | async">
+            <a class="dropdown-item" (click)="getGame(game.$key, game.name)">{{ game.name }} - {{ game.topic }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row" *ngIf="game">
+    <div class="col-md-8">
+      <div class="form">
+        <div class="form-group">
+          <label>{{ game.$key }}</label>
+        </div>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input class="form-control" type="text" name="name" [(ngModel)]="game.name">
+        </div>
+        <div class="form-group">
+          <label for="topic">Topic:</label>
+          <input class="form-control" type="text" name="topic" [(ngModel)]="game.topic">
+        </div>
+        <div class="form-group">
+          <label for="id">Id:</label>
+          <input class="form-control" type="text" name="id" [(ngModel)]="game.id">
+        </div>
+        <div class="form-group">
+          <label for="instructions">Instructions:</label>
+          <textarea class="form-control" name="instructions" [(ngModel)]="game.instructions"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <button class="btn btn-default" (click)="addNew()">Add New</button>
+      <button class="btn btn-primary" (click)="saveGame()" [disabled]="!game">Save</button>
+    </div>
+  </div>
+</div>
