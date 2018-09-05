@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AngularFire, FirebaseListObservable, FirebaseRef } from 'angularfire2';
 
 import { environment } from '../../environments/environment';
@@ -28,7 +28,8 @@ export class LobbyComponent implements OnInit {
     private _route: ActivatedRoute,
     private _auth: AuthService,
     @Inject(FirebaseRef) fb,
-    private _helper: HelperService
+    private _helper: HelperService,
+    private router: Router
   ) 
   { 
     this.firebase = af;
@@ -74,11 +75,26 @@ export class LobbyComponent implements OnInit {
       avatar: 'http://madamemacdonald.com/images/avatars/' + this.player.avatarUrl
     };
 
-    this.players_db.push(newPlayer)
-      .then((item) => {
-        this.player_key = item.key;
-        this.getRef();              
-    });  
+    var query = this.fb.database().ref('/lobby');
+    var me = this
+    var playerFound = false
+    query.once('value')
+    .then(function(snapshot){
+      snapshot.forEach(function(childSnapshot){
+          var player = childSnapshot.val();
+          if (player.id === me.player.id) playerFound = true
+        });
+
+        if (!playerFound) {
+          me.players_db.push(newPlayer)
+            .then((item) => {
+              me.player_key = item.key;
+              me.getRef();
+          });  
+        } else {
+          me.router.navigate(['/error']);
+        }
+      });
   }
 
   getRef(){
@@ -86,7 +102,11 @@ export class LobbyComponent implements OnInit {
     ref.onDisconnect().remove();
   }
 
-  removeFromLobby(gameId: string) {
+  removeFromLobby() {
     this.fb.database().ref('/lobby/' + this.player_key).remove();
+  }
+
+  removeFromLobbyByKey(key) {
+    this.fb.database().ref('/lobby/' + key).remove();
   }
 }

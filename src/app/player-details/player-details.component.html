@@ -1,4 +1,14 @@
-<li class="list-inline-item" *ngFor="let player of players | async">
-  <img *ngIf="!player.player.avatar.endsWith('/') && !player.player.avatar.endsWith('0.noavatar.png')" 
-    [src]="player.player.avatar" class="img-fluid"><br>{{ player.player.name }}
-</li>
+<div *ngIf="game"> 
+  <ul class="list-inline" >
+    <li class="list-inline-item" *ngFor="let player of players">
+      <img *ngIf="!player.player.avatar.endsWith('/') && !player.player.avatar.endsWith('0.noavatar.png')" 
+        [src]="player.player.avatar" class="img-fluid"><br>{{ player.player.name }}
+    </li>
+  </ul>
+  <p class="text-danger" *ngIf="playerCount === 0">
+      0 Players
+  </p>
+  <a *ngIf="players && players.length < player_cap" routerLink="/play/{{ game.$key }}" class="btn btn-primary btn-block" (click)="removeFromLobby()">
+    Join
+  </a>
+</div>

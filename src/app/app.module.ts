@@ -18,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SpinComponent } from './spin/spin.component';
 import { PlayerDetailsComponent } from './player-details/player-details.component';
 import { CallbackComponent } from './callback/callback.component';
+import { ErrorComponent } from './error/error.component';
 
 export const config = {
   apiKey: environment.fb_apiKey,
@@ -38,7 +39,8 @@ export const config = {
     DashboardComponent,
     SpinComponent,
     PlayerDetailsComponent,
-    CallbackComponent
+    CallbackComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +54,8 @@ export const config = {
       { path: 'play/:id', component: PlayComponent },
       { path: 'games', component: GamesComponent, canActivate: [AuthguardService] },
       { path: 'dashboard', component: DashboardComponent, canActivate: [AuthguardService] },
-      { path: 'spin', component: SpinComponent }
+      { path: 'spin', component: SpinComponent },
+      { path: 'error', component: ErrorComponent }
     ]),
     AngularFireModule.initializeApp(config)
   ],

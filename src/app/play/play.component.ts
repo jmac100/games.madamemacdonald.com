@@ -221,7 +221,7 @@ export class PlayComponent implements OnInit {
   }
 
   startGame() {
-    if (this.gameDetails.length < 4) {
+    if (this.gameDetails && this.gameDetails.length < 4) {
       this.gameDetails = Array.from(this.master);
     }
     this.expressions = [];

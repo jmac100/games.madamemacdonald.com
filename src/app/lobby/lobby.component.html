@@ -30,7 +30,7 @@
             Lobby
           </h3>
           <div class="row mt-5">
-            <div class="col-md-3" *ngFor="let p of players">
+            <div class="col-md-3" *ngFor="let p of players_db | async">
               <div class="card player-card">
                 <img *ngIf="!p.avatar.endsWith('/') && !p.avatar.endsWith('0.noavatar.png')" class="avatar-header img-fluid" [src]="p.avatar">
                 <div class="card-block">
@@ -60,15 +60,7 @@
                   <p class="card-text h4">
                     {{ game.topic }}
                   </p>
-                  <ul class="list-inline" *ngIf="game.players">
-                    <app-player-details [game]="game"></app-player-details>
-                  </ul>
-                  <p class="text-danger" *ngIf="!game.players">
-                    0 Players
-                  </p>
-                  <a routerLink="/play/{{ game.$key }}" class="btn btn-primary btn-block" (click)="removeFromLobby(game.$key)">
-                    Join
-                  </a>
+                  <app-player-details [game]="game" (buttonClicked)="removeFromLobby()"></app-player-details>
                 </div>
               </div>
             </div>

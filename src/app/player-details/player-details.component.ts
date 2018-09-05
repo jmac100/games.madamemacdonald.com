@@ -1,5 +1,6 @@
-import { Component, AfterViewInit, Input } from '@angular/core';
-import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { Component, AfterViewInit, Input, Output, EventEmitter } from '@angular/core';
+import { AngularFire } from 'angularfire2';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-player-details',
@@ -9,7 +10,10 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 export class PlayerDetailsComponent implements AfterViewInit {
 
   @Input() game: any;
-  players: FirebaseListObservable<any[]>;
+  @Output() buttonClicked = new EventEmitter<string>();
+
+  player_cap: number = environment.player_cap
+  players: any[];
 
   constructor(private af: AngularFire) { }
 
@@ -20,6 +24,14 @@ export class PlayerDetailsComponent implements AfterViewInit {
   }
 
   getPlayers() {
-    this.players = this.af.database.list('/games/' + this.game.$key + '/players');
+    this.af.database
+      .list('/games/' + this.game.$key + '/players')
+      .subscribe(players => {
+        this.players = players;
+      })
+  } 
+
+  removeFromLobby() {
+    this.buttonClicked.emit()
   }
 }
