@@ -1,6 +1,7 @@
 <div class="container">
-  <div class="loading vertical-center fade-in" *ngIf="!player">
-  Getting your profile.  One sec...
+  <div class="loading vertical-center fade-in text-center" *ngIf="!player">
+    <div class="mb-4">Getting your profile...</div>
+    <img src="assets/loader.svg" alt="loading...">
   </div>
   <div *ngIf="player">
     <div class="row">

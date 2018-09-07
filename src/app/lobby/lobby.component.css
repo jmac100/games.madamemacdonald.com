@@ -36,6 +36,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex; 
+  flex-direction: column;
   
   /* Align the bootstrap's container vertically */
     -webkit-box-align : center;
