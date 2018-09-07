@@ -34,7 +34,7 @@ export class SpinComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.classList = ['5-1', '5-2', '5-3', '6-1', '6-2', '6-3'];
+    this.classList = ['34-1', '5-1', '5-2', '5-3', '6-1', '6-2', '6-3'];
     this.selected_class = this.classList[0];
     this.getClass(this.selected_class);
   }
