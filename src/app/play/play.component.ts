@@ -258,7 +258,7 @@ export class PlayComponent implements OnInit {
           var activityLog = {
             activityLogID: 0,
             userID: me.player.id,
-            description: 'MadameMacDonald.MultiPlayer.Kahoot.ClassroomObjects',
+            description: me.game.namespace,
             activityDate: me._helper.getDate()  
           };
           me._auth.getToken()
