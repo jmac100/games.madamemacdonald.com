@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "question": "bureau de poste",
+      "image": "1.png"
+    },
+    {
+      "question": "école",
+      "image": "2.png"
+    },
+    {
+      "question": "épicerie",
+      "image": "3.png"
+    },
+    {
+      "question": "hôpital",
+      "image": "4.png"
+    },
+    {
+      "question": "librairie",
+      "image": "5.png"
+    },
+    {
+      "question": "magasin",
+      "image": "6.png"
+    },
+    {
+      "question": "palais de justice",
+      "image": "7.png"
+    },
+    {
+      "question": "pharmacie",
+      "image": "8.png"
+    },
+    {
+      "question": "police",
+      "image": "9.png"
+    },
+    {
+      "question": "pompiers",
+      "image": "10.png"
+    },
+    {
+      "question": "restaurant",
+      "image": "11.png"
+    },
+    {
+      "question": "site touristique",
+      "image": "12.png"
+    }
+  ]
+}

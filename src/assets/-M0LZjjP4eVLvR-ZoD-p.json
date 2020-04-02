@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "question": "la chambre",
+      "image": "1.png"
+    },
+    {
+      "question": "la cour",
+      "image": "2.png"
+    },
+    {
+      "question": "la cuisine",
+      "image": "3.png"
+    },
+    {
+      "question": "la salle à manger",
+      "image": "4.png"
+    },
+    {
+      "question": "la salle de bain",
+      "image": "5.png"
+    },
+    {
+      "question": "la salle de jeu",
+      "image": "6.png"
+    },
+    {
+      "question": "la salle de lavage",
+      "image": "7.png"
+    },
+    {
+      "question": "le bureau",
+      "image": "8.png"
+    },
+    {
+      "question": "le garage",
+      "image": "9.png"
+    },
+    {
+      "question": "le grenier",
+      "image": "10.png"
+    },
+    {
+      "question": "le salon",
+      "image": "11.png"
+    },
+    {
+      "question": "le sous-sol",
+      "image": "12.png"
+    }
+  ]
+}

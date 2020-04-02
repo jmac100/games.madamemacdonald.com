@@ -4,15 +4,16 @@
     <div class="col-md-5">
       <div class="col-md-6 mb-4">
         <div class="dropdown mt-5" *ngIf="classList">
-          <button class="btn btn-primary btn-block dropdown-toggle pointer" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-primary btn-block dropdown-toggle pointer" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ selected_class }}
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li *ngFor="let class of classList">              
+            <li *ngFor="let class of classList">
               <a class="dropdown-item" (click)="getClass(class)">{{ class }} <i class="fa fa-check" *ngIf="selected_class == class"></i></a>
             </li>
           </ul>
-        </div>      
+        </div>
       </div>
     </div>
   </div>
@@ -26,13 +27,19 @@
           </button>
           <ul class="dropdown-menu">
             <li>
-              <a class="dropdown-item pointer" (click)="loadBravoCounts(1)">{{ getMonth(1) }} <i class="fa fa-check" *ngIf="selected_month == getMonth(1)"></i></a>
+              <a class="dropdown-item pointer" (click)="loadBravoCounts(1)">{{ getMonth(1) }} <i class="fa fa-check"
+                  *ngIf="selected_month == getMonth(1)"></i></a>
             </li>
             <li>
-              <a class="dropdown-item pointer" (click)="loadBravoCounts(0)">{{ getMonth(0) }} <i class="fa fa-check" *ngIf="selected_month == getMonth(0)"></i></a>
+              <a class="dropdown-item pointer" (click)="loadBravoCounts(0)">{{ getMonth(0) }} <i class="fa fa-check"
+                  *ngIf="selected_month == getMonth(0)"></i></a>
+            </li>
+            <li>
+              <a class="dropdown-item pointer" (click)="loadBravoCounts(-1)">{{ getMonth(-1) }} <i class="fa fa-check"
+                  *ngIf="selected_month == getMonth(-1)"></i></a>
             </li>
           </ul>
-        </div>        
+        </div>
       </div>
     </div>
   </div>

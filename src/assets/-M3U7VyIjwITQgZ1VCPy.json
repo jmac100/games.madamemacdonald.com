@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "question": "à côté de",
+      "image": "1.png"
+    },
+    {
+      "question": "à droite de",
+      "image": "2.png"
+    },
+    {
+      "question": "à gauche de",
+      "image": "3.png"
+    },
+    {
+      "question": "à",
+      "image": "4.png"
+    },
+    {
+      "question": "dans",
+      "image": "5.png"
+    },
+    {
+      "question": "derrière",
+      "image": "6.png"
+    },
+    {
+      "question": "devant",
+      "image": "7.png"
+    },
+    {
+      "question": "entre",
+      "image": "8.png"
+    },
+    {
+      "question": "loin de",
+      "image": "9.png"
+    },
+    {
+      "question": "près de",
+      "image": "10.png"
+    },
+    {
+      "question": "sous",
+      "image": "11.png"
+    },
+    {
+      "question": "sur",
+      "image": "12.png"
+    }
+  ]
+}

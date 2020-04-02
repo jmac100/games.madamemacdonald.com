@@ -13,26 +13,12 @@
     "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Ingredients",
     "topic" : "Les ingrédients"
   },
-  "-Kdx0mriYkl2m0uIMhTG" : {
-    "id" : "A20F6F40-5375-459D-ADDB-B52AC2122DA2",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Festival.Activities",
-    "topic" : "Les activités de fête"
-  },
   "-KeHSQtxkt0Xr_3guGYX" : {
     "id" : "7b12f679-28c8-4b92-8247-609a77198c62",
     "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
     "name" : "La Hoot",
     "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Animals",
     "topic" : "Les animaux"
-  },
-  "-KeHYCkyAu8X_bWCyeHd" : {
-    "id" : "35415549-41bc-4122-b318-feec65ef3fb8",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Festival.Clothing",
-    "topic" : "Les articles de fête"
   },
   "-KeHdRWX5AxzG9JHHIcV" : {
     "id" : "ca1ec0d5-f749-423b-8a69-3f863431788d",
@@ -41,40 +27,12 @@
     "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Food",
     "topic" : "La nourriture"
   },
-  "-Kibw1iH5QjiMfrCkjGC" : {
-    "id" : "373483ba-d320-43d6-8e50-6887b5a3a9fe",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Mog",
-    "topic" : "Madame Mog"
-  },
-  "-Kic-VKSGj6B4nt4jdtG" : {
-    "id" : "6957bd7a-6ecd-4f10-b3ff-e6b0b5836a98",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Owl",
-    "topic" : "Le Hibou"
-  },
-  "-Kic3zMG6DWZpsQeST43" : {
-    "id" : "88aee7e4-8e45-4ff4-97f0-39d7747832ee",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Tiger",
-    "topic" : "La Chasse au Tigre"
-  },
   "-KsDjXPV9g7WOHo4Cjzm" : {
     "id" : "abdde70b-099d-4188-ad53-cdaa5e05c59e",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \\\"win\\\" towards a Bravo!\"",
+    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
     "name" : "La Hoot",
     "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Activity",
     "topic" : "Mon Activité Préférée"
-  },
-  "-KzJWQNZoEQrhBUEpekC" : {
-    "id" : "7dd21d38-c12d-492c-ad6f-f33c5e14d3b7",
-    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a \"win\" towards a Bravo!",
-    "name" : "La Hoot",
-    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Christmas",
-    "topic" : "Joyeuses Fêtes!"
   },
   "-LzoapTDnZYLzhsZPgk0" : {
     "id" : "0fa20c10-97b3-4f2b-9f25-6c9c739851e6",

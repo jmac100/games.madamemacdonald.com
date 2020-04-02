@@ -34,7 +34,7 @@ export class SpinComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.classList = ['34-1', '5-1', '5-2', '5-3', '6-1', '6-2', '6-3'];
+    this.classList = ['45-1', '5-1', '5-2', '5-3', '6-1', '6-2', '6-3'];
     this.selected_class = this.classList[0];
     this.getClass(this.selected_class);
   }
@@ -55,7 +55,13 @@ export class SpinComponent implements OnInit {
   loadBravoCounts(offset: number) {
     this.loading = true;
     var d = new Date();
-    var query = (String)((d.getMonth() + offset) + '|' + d.getFullYear());
+    // var query = (String)((d.getMonth() + offset) + '|' + d.getFullYear());
+    // console.log('query:', query)
+
+    var query = offset == -1
+      ? '12|2019'
+      : (String)((d.getMonth() + offset) + '|' + d.getFullYear());
+
     var me = this;
     this.selected_month = this.getMonth(offset);
 
@@ -106,9 +112,12 @@ export class SpinComponent implements OnInit {
   }
 
   getMonth(offset: number) {
-    var monthNames = ["", "January", "February", "March", "April", "May", "June",
+    var monthNames = ["December", "January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"
     ];
+    // var monthNames = ["", "January", "February", "March", "April", "May", "June",
+    //   "July", "August", "September", "October", "November", "December"
+    // ];
     return monthNames[new Date().getMonth() + offset];
   }
 }

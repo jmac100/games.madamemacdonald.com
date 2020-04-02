@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "question": "bonhomme",
+      "image": "1.png"
+    },
+    {
+      "question": "bottes",
+      "image": "2.png"
+    },
+    {
+      "question": "cabane à sucre",
+      "image": "3.png"
+    },
+    {
+      "question": "canot",
+      "image": "4.png"
+    },
+    {
+      "question": "ceinture fléchée",
+      "image": "5.png"
+    },
+    {
+      "question": "char",
+      "image": "6.png"
+    },
+    {
+      "question": "Château Frontenac",
+      "image": "7.png"
+    },
+    {
+      "question": "chiens",
+      "image": "8.png"
+    },
+    {
+      "question": "défilé",
+      "image": "9.png"
+    },
+    {
+      "question": "effigie",
+      "image": "10.png"
+    },
+    {
+      "question": "feux",
+      "image": "11.png"
+    },
+    {
+      "question": "fleuve Saint-Laurent",
+      "image": "12.png"
+    },
+    {
+      "question": "glissoire",
+      "image": "13.png"
+    },
+    {
+      "question": "mitaines",
+      "image": "14.png"
+    },
+    {
+      "question": "Palais de glace",
+      "image": "15.png"
+    },
+    {
+      "question": "patins",
+      "image": "16.png"
+    },
+    {
+      "question": "raquettes",
+      "image": "17.png"
+    },
+    {
+      "question": "sculpture",
+      "image": "18.png"
+    },
+    {
+      "question": "skis",
+      "image": "19.png"
+    },
+    {
+      "question": "toboggan",
+      "image": "20.png"
+    },
+    {
+      "question": "traineau",
+      "image": "21.png"
+    },
+    {
+      "question": "tuque",
+      "image": "22.png"
+    }
+  ]
+}
