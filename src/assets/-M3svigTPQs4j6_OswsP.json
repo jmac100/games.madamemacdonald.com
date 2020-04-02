@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "question": "Je peux danser des danses culturelles.",
+      "image": "1.png"
+    },
+    {
+      "question": "Je peux m’habiller comme un voyageur.",
+      "image": "2.png"
+    },
+    {
+      "question": "Je peux me faire peindre le visage.",
+      "image": "3.png"
+    },
+    {
+      "question": "Je peux participer au Tintamarre.",
+      "image": "4.png"
+    },
+    {
+      "question": "Je peux participer à un concours de bûcheron.",
+      "image": "5.png"
+    },
+    {
+      "question": "Je peux faire du camping avec ma famille.",
+      "image": "6.png"
+    },
+    {
+      "question": "Je peux jouer à des jeux d’adresse.",
+      "image": "7.png"
+    },
+    {
+      "question": "Je peux jouer dans un château gonflable.",
+      "image": "8.png"
+    },
+    {
+      "question": "Je peux jouer dans un labyrinthe de neige.",
+      "image": "9.png"
+    },
+    {
+      "question": "Je peux descendre une glissade.",
+      "image": "10.png"
+    },
+    {
+      "question": "Je peux jouer dans une maison hantée.",
+      "image": "11.png"
+    },
+    {
+      "question": "Je peux participer à une chasse au trésor.",
+      "image": "12.png"
+    },
+    {
+      "question": "Je peux manger des queues de castor.",
+      "image": "13.png"
+    },
+    {
+      "question": "Je peux manger un bifteck.",
+      "image": "14.png"
+    },
+    {
+      "question": "Je peux manger de la poutine.",
+      "image": "15.png"
+    },
+    {
+      "question": "Je peux manger des fruits de mer.",
+      "image": "16.png"
+    },
+    {
+      "question": "Je peux manger de la tarte au sucre.",
+      "image": "17.png"
+    },
+    {
+      "question": "Je peux manger de la tire d’érable.",
+      "image": "18.png"
+    },
+    {
+      "question": "Je peux regarder un défilé.",
+      "image": "19.png"
+    },
+    {
+      "question": "Je peux regarder une cérémonie.",
+      "image": "20.png"
+    },
+    {
+      "question": "Je peux écouter un musicien.",
+      "image": "21.png"
+    },
+    {
+      "question": "Je peux regarder un spectacle.",
+      "image": "22.png"
+    },
+    {
+      "question": "Je peux regarder un concours.",
+      "image": "23.png"
+    },
+    {
+      "question": "Je peux regarder un artiste.",
+      "image": "24.png"
+    }
+  ]
+}

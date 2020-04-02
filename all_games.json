@@ -103,5 +103,12 @@
     "name" : "La Hoot",
     "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Positions",
     "topic" : "Des mots pour décrire des positions"
+  },
+  "-M3svigTPQs4j6_OswsP" : {
+    "id" : "94ba2cb2-1bde-4700-9ae1-131fb9efaf9b",
+    "instructions" : "Be the first to click on the correct picture to get a point.  Five points will get you a win towards a Bravo!",
+    "name" : "La Hoot",
+    "namespace" : "MadameMacDonald.MultiPlayer.Kahoot.Festival",
+    "topic" : "Au Festival"
   }
 }
